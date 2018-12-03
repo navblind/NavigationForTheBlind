@@ -36,7 +36,7 @@ This program won 3rd place for Tech Cares at CruzHacks 2018.
 https://devpost.com/software/navigation-for-the-blind-kdyufq
 
 
-![alt text](https://github.com/vivek3141/NavigationForBlind/blob/master/Documentation/road.PNG)
+![alt text](https://raw.githubusercontent.com/navblind/NavigationForBlind/master/Documentation/road.PNG)
 <br />
 <br />
 
