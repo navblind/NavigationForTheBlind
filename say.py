@@ -1,11 +1,16 @@
-import pyttsx3 as p
+from gtts import gTTS
 import time
-engine =p.init()
+import os
+
+
+file = "/tmp/temp.mp3"
+
+
 while True:
-    with open("write.txt","r") as f:
-        s =  f.read()
-    
-    engine.say(s)
-    engine.runAndWait()
+    with open("/tmp/write.txt","r") as f:
+        s =  f.read().strip()
+    tts = gTTS(s)
+    tts.save(file)
+    os.system(f"mpg123 {file}")
     time.sleep(1)
 
