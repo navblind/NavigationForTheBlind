@@ -30,7 +30,7 @@ Math and Time modules are used, but inbuilt.
 The picture below shows the algorithm working. The dark blue lines is the output that the edge detection algorithm gave. Quadratic regression gives the light blue lines and linear regression gives the black lines. 
 <br /><br />
 
-![alt text](https://raw.githubusercontent.com/navblind/NavigationForBlind/master/Documentation/road.PNG)
+![alt text](https://raw.githubusercontent.com/navblind/NavigationForTheBlind/master/docs/road.PNG)
 <br />
 <br />
 
